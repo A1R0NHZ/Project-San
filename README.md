@@ -53,3 +53,62 @@ To run the SanDan Security Agent, execute the Python script from your terminal:
 
 ```bash
 python sandan.py
+
+The tool will prompt you to enter the target URL. Once provided, an interactive menu will appear, allowing you to choose specific vulnerability scans or initiate a comprehensive assessment.
+
+Example Interaction:
+================================================================================
+   ██████  ▄▄▄       ███▄ ▄███▓ ▓█████  ▄▄▄       ███▄ ▄███▓
+ ▒██    ▒ ▒████▄     ▓██▒▀█▀ ██▒ ▓█  ▀ ▒████▄     ▓██▒▀█▀ ██▒
+ ░ ▓██▄   ▒██ ▀█▄   ▓██    ▓██░ ▒███   ▒██ ▀█▄   ▓██    ▓██░
+  ▒  ██▒░██▄▄▄▄██ ▒██    ▒██ ▒▓█  ▄ ░██▄▄▄▄██ ▒██    ▒██
+ ▒██████▒▒ ▓█  ▓██▒▒██▒   ░██▒ ░▒████▒ ▓█  ▓██▒▒██▒   ░██▒
+ ▒ ▒▓▒ ▒ ░ ▒▒  ▓▒█░░ ▒░   ░  ░ ░░ ▒░ ░ ▒▒  ▓▒█░░ ▒░   ░  ░
+ ░ ░▒  ░ ░  ▒  ▒▒ ░░  ░        ░  ░ ░   ▒  ▒▒ ░░  ░        ░
+ ░  ░  ░    ░  ▒  ░        ░        ░   ░  ▒  ░        ░
+        ░       ░  ░          ░        ░      ░          ░
+
+
+SanDan Agent v4.0 - KAGE Pro Mode
+Advanced Web Application Security Scanner - For Authorized Testing Only
+================================================================================
+
+Enter target URL (e.g., [http://example.com](http://example.com)): [http://testphp.vulnweb.com](http://testphp.vulnweb.com)
+[SanDan][2025-05-27 18:04:37][INFO] Starting initial reconnaissance for [http://testphp.vulnweb.com](http://testphp.vulnweb.com)
+[SanDan][2025-05-27 18:04:37][INFO] Starting technology fingerprinting...
+... (output continues based on scan)
+---
+### SanDan Attack Menu
+1.  XSS Scan
+2.  SQL Injection
+3.  RCE Test
+4.  File Inclusion (LFI/RFI)
+5.  XML External Entity (XXE) Test
+6.  Server-Side Template Injection (SSTI) Test
+7.  Insecure Direct Object Reference (IDOR) Test
+8.  Check HTTP Methods
+9.  Check CORS Policy
+10. Check Security Headers (re-check)
+11. Defacement Check (re-check)
+12. Subdomain Enumeration
+13. Directory/File Brute-Force
+14. Port Scan
+15. Server-Side Request Forgery (SSRF) Test
+16. Open Redirect Test
+17. Broken Authentication/Session Management Check (Basic)
+18. Rate Limiting Bypass Test (Basic)
+19. Sensitive Data Exposure Check (Basic)
+20. Host Header Injection Test
+21. Clickjacking Protection Check
+------------------------------------------------------------
+A. Run All Scans (Comprehensive)
+Q. Exit
+============================================================
+Enter your choice: A
+Reporting
+Upon completion of any scan, SanDan automatically generates a detailed JSON report. This report summarizes all findings, including detected technologies, results from crawling, and a categorized list of identified vulnerabilities by severity (critical, high, medium, low, info). The report file will be saved in the same directory where the script is executed, typically named sandan_report_yourdomain.com_TIMESTAMP.json.
+
+Disclaimer
+IMPORTANT: The SanDan Security Agent is developed solely for ethical hacking, security research, and authorized penetration testing purposes. You must obtain explicit, written permission from the asset owner before performing any scans on target systems. Unauthorized scanning is illegal and unethical. The developers and contributors of this tool are not responsible for any misuse or damage caused by its deployment.
+
+We welcome contributions, bug reports, and feature suggestions! Feel free to open an issue or submit a pull request.
