@@ -46,7 +46,13 @@ To get started with SanDan Security Agent, follow these steps:
     ```
 
 ---
+# Reporting
+Upon completion of any scan, SanDan automatically generates a detailed JSON report. This report summarizes all findings, including detected technologies, results from crawling, and a categorized list of identified vulnerabilities by severity (critical, high, medium, low, info). The report file will be saved in the same directory where the script is executed, typically named sandan_report_yourdomain.com_TIMESTAMP.json.
 
+# Disclaimer
+IMPORTANT: The SanDan Security Agent is developed solely for ethical hacking, security research, and authorized penetration testing purposes. You must obtain explicit, written permission from the asset owner before performing any scans on target systems. Unauthorized scanning is illegal and unethical. The developers and contributors of this tool are not responsible for any misuse or damage caused by its deployment.
+
+We welcome contributions, bug reports, and feature suggestions! Feel free to open an issue or submit a pull request.
 ## Usage
 
 To run the SanDan Security Agent, execute the Python script from your terminal:
@@ -104,11 +110,4 @@ Enter target URL (e.g., [http://example.com](http://example.com)): [http://testp
 A. Run All Scans (Comprehensive)
 Q. Exit
 ============================================================
-Enter your choice: A
-Reporting
-Upon completion of any scan, SanDan automatically generates a detailed JSON report. This report summarizes all findings, including detected technologies, results from crawling, and a categorized list of identified vulnerabilities by severity (critical, high, medium, low, info). The report file will be saved in the same directory where the script is executed, typically named sandan_report_yourdomain.com_TIMESTAMP.json.
 
-Disclaimer
-IMPORTANT: The SanDan Security Agent is developed solely for ethical hacking, security research, and authorized penetration testing purposes. You must obtain explicit, written permission from the asset owner before performing any scans on target systems. Unauthorized scanning is illegal and unethical. The developers and contributors of this tool are not responsible for any misuse or damage caused by its deployment.
-
-We welcome contributions, bug reports, and feature suggestions! Feel free to open an issue or submit a pull request.
