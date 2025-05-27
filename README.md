@@ -2,6 +2,10 @@
 
 The SanDan Security Agent is a powerful, Python-based web application security scanner designed for comprehensive **ethical hacking** and **penetration testing**. It helps security professionals and researchers identify a wide range of common web vulnerabilities through automated checks and detailed reconnaissance.
 
+The name "SanDan Agent" signifies "Third Level of Mastery" (from Japanese "San" for three, and "Dan" for rank/mastery). It implies a highly skilled, disciplined, and advanced tool for web security, operating like a specialized, expert agent.
+The name "SanDan Agent" for your security scanner is likely inspired by Japanese martial arts, where "Dan" (段) signifies a rank of mastery or expertise, particularly a black belt. "San" (三) means three.
+
+Together, "SanDan" metaphorically suggests a "third level of mastery" or a highly refined skill set in security. The "Agent" part emphasizes its autonomous, systematic, and proactive nature in finding vulnerabilities. It's a name that implies precision, discipline, and advanced capability.
 ---
 
 ## Features
