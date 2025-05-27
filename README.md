@@ -40,14 +40,7 @@ SanDan offers a robust set of features to aid in security assessments:
 
 To get started with SanDan Security Agent, follow these steps:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/SanDanSecurityAgent.git](https://github.com/your-username/SanDanSecurityAgent.git)
-    cd SanDanSecurityAgent
-    ```
-    (Replace `your-username` with the actual GitHub username if you're forking this project).
-
-2.  **Install dependencies:**
+1.   **Install dependencies:**
     ```bash
     pip install requests beautifulsoup4 fake-useragent dnspython
     ```
